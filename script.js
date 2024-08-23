@@ -12,7 +12,7 @@ function checktest(a){
         }
     };
     if(a==2){
-        if(document.getElementById("test2").value=="28.04"){
+        if(document.getElementById("test2").value=="20.06"){
             score++;
             test2close = true;
         };            
@@ -38,7 +38,7 @@ function checkScore(){
         document.getElementById("image").src ='Main3.png'
     }else
     if(score==3){
-        document.getElementById("poskazka").innerHTML="1";
+        document.getElementById("poskazka").innerHTML="Наверху и под чем-то";
     }
 }
  

@@ -11,24 +11,24 @@
         <div id="text">
             <p>Где-то спрятон подарок, найди.</p>
             <p>Если ответить на вопрос то получишь подсказку.</p>
-            <p>1. Вопрос</p>
-            <p><input type="text" id="test1" class="otvet"><button onclick="checktest(1)">Ответить</button></p>
-            <p>2. Вопрос</p>
-            <p><input type="text" id="test2" class="otvet"><button onclick="checktest(2)">Ответить</button></p>
-            <p>3. Вопрос</p>
+            <p>1. Когда день рождение у мамы?</p>
+            <p><input type="text" id="test1" class="otvet"><button class="otvet" onclick="checktest(1)">Ответить</button></p>
+            <p>2. Сложи даты рождения Паши и папы (Например 07.02 + 11.03 = 18.05)</p>
+            <p><input type="text" id="test2" class="otvet"><button class="otvet" onclick="checktest(2)">Ответить</button></p>
+            <p>3. Дни рождения бабушки и дедушки</p>
             <ol>
                 <li>
-                    <input onclick="checktestRadio(1)" name="rtest3" type="radio" id="test3" value="1"> теуст
+                    <input onclick="checktestRadio(1)" name="rtest3" type="radio" id="test3" value="1" class="otvet"> 16.02 и 23.03
                 </li>
                 <li>
-                    <input onclick="checktestRadio(2)" name="rtest3" type="radio" id="test3" value="2"> ываыва
+                    <input onclick="checktestRadio(2)" name="rtest3" type="radio" id="test3" value="2" class="otvet"> 24.03 и 21.02
                 </li>
                 <li>
-                    <input onclick="checktestRadio(3)" name="rtest3" type="radio" id="test3" value="3"> ываыв аыв222
+                    <input onclick="checktestRadio(3)" name="rtest3" type="radio" id="test3" value="3" class="otvet"> 22.03 и 12.01
                 </li>
             </ol>
             
-            <button onclick="checktest(3)">Ответить</button>
+            <button class="otvet" onclick="checktest(3)">Ответить</button>
             
             <p id="poskazka"></p>
 

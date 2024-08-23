@@ -1,17 +1,41 @@
+@font-face {
+	font-family: "Lexend Peta";
+	src: local("Lexend Peta Regular"),
+    local("LexendPeta-Regular"),
+    url("Lexend_Peta-webfont.woff2") format("woff2"),
+    url("Lexend_Peta-webfont.woff") format("woff"),
+    url("Lexend_Peta-webfont.svg") format("svg");
+    font-weight: normal;
+}
+
 #main{
+    font-family: "Lexend Peta", sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 90%;
     height: 900px;
-    background-color: blanchedalmond;
+    /* background-color: #ddd; */
 }
 
 #text{
+    font-size: 20px;
     height:auto;
-    margin: 40px auto;
+    margin: 20px auto;
+}
+
+#poskazka{
+    color: rgb(25, 229, 86);
+    font-size: 32px;
+    margin:20px auto;
 }
 
 #imageblock{
     margin: 0 auto;
+}
+
+.otvet{
+    padding: 1px;
+    margin: 1px;
+    height: 28px;
 }
