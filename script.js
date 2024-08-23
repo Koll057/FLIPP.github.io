@@ -38,6 +38,7 @@ function checkScore(){
         document.getElementById("image").src ='Main3.png'
     }else
     if(score==3){
+        document.getElementById("image").src ='Main4.png'
         document.getElementById("poskazka").innerHTML="Наверху и под чем-то";
     }
 }
