@@ -1,0 +1,17 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+    height: 900px;
+    background-color: blanchedalmond;
+}
+
+#text{
+    height:auto;
+    margin: 40px auto;
+}
+
+#imageblock{
+    margin: 0 auto;
+}

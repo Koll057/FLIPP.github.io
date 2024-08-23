@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <div id="text">
+            <p>Где-то спрятон подарок, найди.</p>
+            <p>Если ответить на вопрос то получишь подсказку.</p>
+            <p>1. Вопрос</p>
+            <p><input type="text" id="test1" class="otvet"><button onclick="checktest(1)">Ответить</button></p>
+            <p>2. Вопрос</p>
+            <p><input type="text" id="test2" class="otvet"><button onclick="checktest(2)">Ответить</button></p>
+            <p>3. Вопрос</p>
+            <ol>
+                <li>
+                    <input onclick="checktestRadio(1)" name="rtest3" type="radio" id="test3" value="1"> теуст
+                </li>
+                <li>
+                    <input onclick="checktestRadio(2)" name="rtest3" type="radio" id="test3" value="2"> ываыва
+                </li>
+                <li>
+                    <input onclick="checktestRadio(3)" name="rtest3" type="radio" id="test3" value="3"> ываыв аыв
+                </li>
+            </ol>
+            
+            <button onclick="checktest(3)">Ответить</button>
+            
+            <p id="poskazka"></p>
+
+        </div>
+        <div id="imageblock">
+            <img id="image" src="Main.png" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
